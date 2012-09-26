@@ -1,0 +1,12 @@
+4)	Write a program that determines if two strings contain the same characters
+Solution:
+
+I came up with two approaches to solve the problem.
+a. using_Array(): This function checks if all the characters in both the strings are same. However,
+it doesnot take care of number of repetitions. Meaning that if a character 'a' is present in both 
+the strings it points out that both strings have character 'a'. It doesnot care how many number of times
+'a' is reapeated in either string1 or string2. 
+
+b. using_ascii_sum(): This function checks if ascii sum of all the characters in both the strings is same.
+Here it takes care of number of times each character is repeated within a string and compares the same with 
+the other string. 
