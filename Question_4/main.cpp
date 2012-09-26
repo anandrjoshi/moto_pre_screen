@@ -100,10 +100,17 @@ int main()
 	bool isSameUsingArray = using_array(string1, string2);
 	bool isSameUsingAsciiSum = using_ascii_sum(string1, string2);
 
-	if (isSameUsingArray && isSameUsingAsciiSum)
-		cout << string1 << " and " << string2 << " are same!!!" << endl;
+	if (isSameUsingArray)
+		cout << string1 << " and " << string2 << " have exactly same character set!!!" << endl;
 	else
-		cout << string1 << " and " << string2 << " are not same!!!" << endl;
+		cout << string1 << " and " << string2 << " do NOT have exactly same character set!!!" << endl;
+
+	if (isSameUsingAsciiSum)
+		cout << string1 << " and " << string2 << 
+		" have exactly same character set and each character is repeated exactly same number of times!!!" << endl;
+	else
+		cout << string1 << " and " << string2 <<
+		" do NOT have exactly same character set or each character is NOT repeated exactly same number of times!!!" << endl;
 
 	system("pause");
 	return 0;

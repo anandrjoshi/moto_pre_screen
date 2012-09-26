@@ -10,3 +10,6 @@ the strings it points out that both strings have character 'a'. It doesnot care 
 b. using_ascii_sum(): This function checks if ascii sum of all the characters in both the strings is same.
 Here it takes care of number of times each character is repeated within a string and compares the same with 
 the other string. 
+
+So the output says whether both the strings have exact same character set or not. It also tells you whether 
+each character is repeated exactly same number of times in both strings or not.
